@@ -1,0 +1,46 @@
+@keyframes first {
+    0%, 100% {
+        left: 0px;
+        top: 0px;
+        background-color: red;
+
+    }
+    25% {
+        left: 200px;
+        top: 0px;
+        background-color: green;
+        border-radius: 50px;
+
+    }
+    50% {
+        left: 200px;
+        top: 200px;
+        background-color: blue;
+        border-radius: 75px;
+
+    }
+    75% {
+        left: 0px;
+        top: 200px;
+        background-color: yellow;
+        border-radius: 150px;
+
+    }
+
+}
+
+.one {
+    width: 150px;
+    height: 150px;
+    padding: 25px;
+    background-color: red;
+
+    position: relative;
+
+    animation-name: first;
+    animation-duration: 5S;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+
+}
